@@ -2,16 +2,6 @@ import { useParams, Link } from 'react-router-dom'
 import { useQuery } from '@tanstack/react-query'
 import { getSongDetail } from '../api/songApi.js'
 
-// // TODO: 테스트 Only. 변경할 것
-// const song = {
-//   "id": "69149cde71914f6a424fd013",
-//   "title": "Golden",
-//   "singer": "HUNTR/X",
-//   "rating": 3,
-//   "lyrics": "I'm done hidin', now I'm shinin' like I'm born to be\nWe dreamin' hard, we came so far, now I'll believe\nWe're goin' up, up, up, it's our moment\nYou know together we're glowing\nGonna be, gonna be golden\nOh, up, up, up with our voices\n영원히 깨질 수 없는\nGonna be, gonna be golden"
-// }
-
-
 const renderRatingStars = (rating, maxRating = 5) => {
   const stars = []
 
